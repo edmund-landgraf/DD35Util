@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+publish/
+artifacts/
+
+# Local runtime output
+*.log
+logs/
+
+# Local configuration and secrets
+*.user
+*.suo
+*.rsuser
+appsettings.Local.json
+appsettings.Production.json
+secrets.json
+
+# Tooling
+.vs/
+.vscode/
+
+# OS files
+Thumbs.db
+Desktop.ini
