@@ -6,10 +6,16 @@ Base URL when hosted under IIS:
 http://localhost/dd35util-api
 ```
 
-Local Kestrel smoke-test URL used during development:
+Optional local root URL when registered as its own IIS site on port `5214`:
 
 ```text
 http://localhost:5214
+```
+
+The port `5214` URL is not expected to be reachable unless either Kestrel is running or IIS has been configured with:
+
+```powershell
+D:\repos\DD35Utils\scripts\register-dd35util-api-iis-5214.ps1
 ```
 
 ## Health
